@@ -212,15 +212,6 @@ boxplot(log2(counts(dds, normalized=TRUE) + 1), main="Sample Expression Distribu
 # Producing Heatmaps
 heatmapOrder <- c("HS01", "HS02", "HS03", "CD01", "CD02", "CD03")
 
-topGenes <- res.df %>%
-  filter(padj < 0.05, abs(log2FoldChange) > 1) %>%
-  slice_head(n = heatmapGenesTotal) %>%
-  pull(gene_name)
-
-heatmapData <- assay(vst)[topGenes[1:50], heatmapOrder]
-
-pheatmap(heatmapData, main=paste0('Heatmap of Top 50 DEGs'), show_rownames=FALSE)
-
 # Inflammation Themed Heatmap
 
 gseaInflammatoryData <- fgsea.df %>% 
