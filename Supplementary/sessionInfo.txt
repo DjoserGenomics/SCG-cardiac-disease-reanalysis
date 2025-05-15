@@ -1,0 +1,30 @@
+R version 4.4.2 (2024-10-31 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 10 x64 (build 19044)
+
+Matrix products: default
+
+
+locale:
+[1] LC_COLLATE=English_United States.utf8  LC_CTYPE=English_United States.utf8   
+[3] LC_MONETARY=English_United States.utf8 LC_NUMERIC=C                          
+[5] LC_TIME=English_United States.utf8    
+
+time zone: Africa/Cairo
+tzcode source: internal
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] msigdbr_10.0.1              fgsea_1.32.2                enrichplot_1.26.6          
+ [4] org.Hs.eg.db_3.20.0         AnnotationDbi_1.68.0        clusterProfiler_4.14.6     
+ [7] pheatmap_1.0.12             EnhancedVolcano_1.24.0      ggrepel_0.9.6              
+[10] DESeq2_1.46.0               SummarizedExperiment_1.36.0 Biobase_2.66.0             
+[13] MatrixGenerics_1.18.1       matrixStats_1.5.0           GenomicRanges_1.58.0       
+[16] GenomeInfoDb_1.42.3         IRanges_2.40.1              S4Vectors_0.44.0           
+[19] BiocGenerics_0.52.0         tximport_1.34.0             lubridate_1.9.4            
+[22] forcats_1.0.0               stringr_1.5.1               dplyr_1.1.4                
+[25] purrr_1.0.4                 readr_2.1.5                 tidyr_1.3.1                
+[28] tibble_3.2.1                ggplot2_3.5.1               tidyverse_2.0.0            
+[31] biomaRt_2.62.1

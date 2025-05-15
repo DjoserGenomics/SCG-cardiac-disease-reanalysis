@@ -1,0 +1,13 @@
+{
+	"n_targets": 207133,
+	"n_bootstraps": 0,
+	"n_processed": 63545837,
+	"n_pseudoaligned": 56638299,
+	"n_unique": 12224614,
+	"p_pseudoaligned": 89.1,
+	"p_unique": 19.2,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Mon Apr 28 18:37:58 2025",
+	"call": "kallisto quant -i /content/RNAseq/Homo_sapiens.GRCh38.cdna.all.index -o kallisto/CD02 -t 2 --single -l 250 -s 30 SRR24448336.fastq.gz"
+}
