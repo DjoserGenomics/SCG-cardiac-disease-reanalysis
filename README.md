@@ -24,16 +24,15 @@ All code is written in **R (v4.4.2)** and executed in **Google Colab** and local
 
 ## 📁 Folder Structure
 
-/FastQCs/ # Contains generated FASTQC files
-/kallisto/ # Contains raw kallisto output
-/Plots/ # Contans generated plots (volcano, heatmaps, etc.)
-/Supplementary/ # Contains Extra files like DEGs tables, and functional enrichment analysis results
+- FastQCs/ - Contains generated FASTQC files
+- kallisto/ - Contains raw kallisto output
+- Plots/ - Contans generated plots (volcano, heatmaps, etc.)
+- Supplementary/ - Contains Extra files like DEGs tables, and functional enrichment analysis results
 
 ## 📬 Contact
 
 For questions or collaborations:
 
-- GitHub: [@yourusername]
 - Email: [djosergenomics@gmail.com](mailto:djosergenomics@gmail.com)
 - Website: [Djoser Genomics](https://djosergenomics.github.io)
 
