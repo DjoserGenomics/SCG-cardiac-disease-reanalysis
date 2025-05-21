@@ -2,6 +2,8 @@
 
 This repository contains all code, Google Colab notebooks, and R scripts for the reanalysis of publicly available human RNA-seq data from ENA Project PRJNA967653.
 
+Biorxiv Preprint DOI Link: [10.1101/2025.05.18.654713](https://doi.org/10.1101/2025.05.18.654713)
+
 ## 🔍 Project Summary
 
 This project presents an independent, exploratory reanalysis of human SCG bulk RNA-seq data originally published by Ziegler et al. (2023). By reprocessing and analyzing the data with updated bioinformatics tools, we aim to uncover novel transcriptomic signatures relevant to cardiac disease.
